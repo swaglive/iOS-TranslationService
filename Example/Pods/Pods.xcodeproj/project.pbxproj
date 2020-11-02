@@ -16,6 +16,8 @@
 		D02A10F9254FFDB800A7E41E /* AppDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A10F7254FFDB800A7E41E /* AppDefaultsKeys.swift */; };
 		D02A10FB255007E500A7E41E /* CachedTranslationFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A10FA255007E500A7E41E /* CachedTranslationFile.swift */; };
 		D02A10FC255007E500A7E41E /* CachedTranslationFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A10FA255007E500A7E41E /* CachedTranslationFile.swift */; };
+		D05C98C325501A0F00F91082 /* StringParamsPairHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C98C225501A0F00F91082 /* StringParamsPairHelper.swift */; };
+		D05C98C425501A0F00F91082 /* StringParamsPairHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C98C225501A0F00F91082 /* StringParamsPairHelper.swift */; };
 		D4C5DA9CE34E54329E3EBAAF60F5DE73 /* Pods-iOS-TranslationService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9F2F9AC132421B3226EE47D69F0C3A /* Pods-iOS-TranslationService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1D0645A1C95389143278F7883EE74B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +51,7 @@
 		D02A10F5254FFC4500A7E41E /* LocalizationSourceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationSourceProvider.swift; sourceTree = "<group>"; };
 		D02A10F7254FFDB800A7E41E /* AppDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefaultsKeys.swift; sourceTree = "<group>"; };
 		D02A10FA255007E500A7E41E /* CachedTranslationFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedTranslationFile.swift; sourceTree = "<group>"; };
+		D05C98C225501A0F00F91082 /* StringParamsPairHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringParamsPairHelper.swift; sourceTree = "<group>"; };
 		D3832B6A820C0899497B448BA37A8BD5 /* iOS-TranslationService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "iOS-TranslationService.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D9534C841F2F38D123525709FCD4F195 /* Pods-iOS-TranslationService_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-TranslationService_Tests-Info.plist"; sourceTree = "<group>"; };
 		D96BD948D08C11DD96A939407E080CA2 /* Pods-iOS-TranslationService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS-TranslationService_Tests.modulemap"; sourceTree = "<group>"; };
@@ -170,6 +173,7 @@
 				D02A10F7254FFDB800A7E41E /* AppDefaultsKeys.swift */,
 				D02A10F5254FFC4500A7E41E /* LocalizationSourceProvider.swift */,
 				D02A10FA255007E500A7E41E /* CachedTranslationFile.swift */,
+				D05C98C225501A0F00F91082 /* StringParamsPairHelper.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -323,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				139753166FEF6D78913260AD117406D8 /* iOS-TranslationService-dummy.m in Sources */,
+				D05C98C325501A0F00F91082 /* StringParamsPairHelper.swift in Sources */,
 				D02A10FB255007E500A7E41E /* CachedTranslationFile.swift in Sources */,
 				D02A10F8254FFDB800A7E41E /* AppDefaultsKeys.swift in Sources */,
 				D02A10F6254FFC4500A7E41E /* LocalizationSourceProvider.swift in Sources */,
@@ -335,6 +340,7 @@
 			files = (
 				D02A10FC255007E500A7E41E /* CachedTranslationFile.swift in Sources */,
 				9A346B0BCCC06A64A4744D7B8BF7C8E1 /* Pods-iOS-TranslationService_Tests-dummy.m in Sources */,
+				D05C98C425501A0F00F91082 /* StringParamsPairHelper.swift in Sources */,
 				D02A10F9254FFDB800A7E41E /* AppDefaultsKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
