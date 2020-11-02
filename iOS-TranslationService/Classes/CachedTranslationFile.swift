@@ -39,11 +39,11 @@ public class CachedTranslationFile {
 
     private var dataFileWithPathURL: URL
     
-    init(dataDirectory: String) {
+    public init(dataDirectory: String) {
         self.dataFileWithPathURL = URL(fileURLWithPath: dataDirectory).appendingPathComponent("translation.dat")
     }
     
-    func save(_ metadata: [String: String]) {
+    public func save(_ metadata: [String: String]) {
         do {
             let data = try JSONSerialization.data(withJSONObject:metadata)
             DataFileAccess.write(data, toURL: dataFileWithPathURL)
@@ -51,7 +51,7 @@ public class CachedTranslationFile {
             debugPrint("[CachedTranslationFile] save data failure: \(error.localizedDescription)")
         }
     }
-    func restore() -> [String: String] {
+    public func restore() -> [String: String] {
         guard let data = DataFileAccess.read(from: dataFileWithPathURL) else {
             return [:]
         }

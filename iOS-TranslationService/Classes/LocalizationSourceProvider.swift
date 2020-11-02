@@ -16,7 +16,7 @@ public extension Notification.Name {
 public class LocalizationSourceProvider: NSObject {
     private let url: URL
     private let session: URLSession
-    private(set) var translation: [String: String] = [:]
+    public private(set) var translation: [String: String] = [:]
     private let appLanguageCode: String
     private let cachedFile: CachedTranslationFile
     
@@ -38,7 +38,7 @@ public class LocalizationSourceProvider: NSObject {
         }
     }
 
-    init(urlString: String, appLanguageCode: String, cachedFile: CachedTranslationFile) {
+    public init(urlString: String, appLanguageCode: String, cachedFile: CachedTranslationFile) {
         self.url = URL(string: urlString)!
         self.appLanguageCode = appLanguageCode
         self.cachedFile = cachedFile
