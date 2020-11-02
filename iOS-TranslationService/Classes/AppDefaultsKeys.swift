@@ -8,7 +8,7 @@
 import Foundation
 
 @objcMembers
-class AppDefaultsKeys: NSObject {
+public class AppDefaultsKeys: NSObject {
     static let translationsEtag = "translationsEtag"
     static let languageCode = "languageCode"
 }

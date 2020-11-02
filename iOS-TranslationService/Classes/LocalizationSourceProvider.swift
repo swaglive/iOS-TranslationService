@@ -8,12 +8,12 @@
 
 import Foundation
 
-extension Notification.Name {
+public extension Notification.Name {
     static let DidUpdateLocalization = Notification.Name("DidUpdateLocalization")
 }
 
 @objcMembers
-class LocalizationSourceProvider: NSObject {
+public class LocalizationSourceProvider: NSObject {
     private let url: URL
     private let session: URLSession
     private(set) var translation: [String: String] = [:]

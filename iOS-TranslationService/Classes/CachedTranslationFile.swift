@@ -35,8 +35,7 @@ fileprivate class DataFileAccess {
     }
 }
 
-
-class CachedTranslationFile {
+public class CachedTranslationFile {
 
     private var dataFileWithPathURL: URL
     
