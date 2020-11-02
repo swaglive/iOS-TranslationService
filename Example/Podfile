@@ -1,0 +1,6 @@
+use_frameworks!
+target 'iOS-TranslationService_Tests' do
+  pod 'iOS-TranslationService', :path => '../'
+  
+  
+end

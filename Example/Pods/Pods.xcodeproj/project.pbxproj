@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		139753166FEF6D78913260AD117406D8 /* iOS-TranslationService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3F919020AEF21FA78DBAA0A0A20329 /* iOS-TranslationService-dummy.m */; };
+		43FF696F5D858227F7130010E7157A5F /* iOS-TranslationService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C77006F82BA7F43EA1C7EA2CAEC3B279 /* iOS-TranslationService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A346B0BCCC06A64A4744D7B8BF7C8E1 /* Pods-iOS-TranslationService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A843B31D21C5AA8BA6FC39A91C2C9112 /* Pods-iOS-TranslationService_Tests-dummy.m */; };
+		AB7F9E4BD302FB5FD13CE45EAA1701B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D02A10F6254FFC4500A7E41E /* LocalizationSourceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A10F5254FFC4500A7E41E /* LocalizationSourceProvider.swift */; };
+		D02A10F8254FFDB800A7E41E /* AppDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A10F7254FFDB800A7E41E /* AppDefaultsKeys.swift */; };
+		D02A10F9254FFDB800A7E41E /* AppDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A10F7254FFDB800A7E41E /* AppDefaultsKeys.swift */; };
+		D02A10FB255007E500A7E41E /* CachedTranslationFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A10FA255007E500A7E41E /* CachedTranslationFile.swift */; };
+		D02A10FC255007E500A7E41E /* CachedTranslationFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A10FA255007E500A7E41E /* CachedTranslationFile.swift */; };
+		D4C5DA9CE34E54329E3EBAAF60F5DE73 /* Pods-iOS-TranslationService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9F2F9AC132421B3226EE47D69F0C3A /* Pods-iOS-TranslationService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D0645A1C95389143278F7883EE74B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F75EFB4E1DEC5DEE22FB9F263BF3252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7785BD6E5E95E4837371FE4E7D6C665E;
+			remoteInfo = "iOS-TranslationService";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0665A5E0A9F06A3B6F91003A2561C1AC /* iOS-TranslationService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "iOS-TranslationService.modulemap"; sourceTree = "<group>"; };
+		0D6B77931C6AD3E23A9CC2E48416B6BB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0F197CE2780B6BB0848F309FCFF3FB33 /* iOS-TranslationService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-TranslationService.xcconfig"; sourceTree = "<group>"; };
+		1858CD2D25F6878CAA57DFF6A38FE788 /* Pods-iOS-TranslationService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-TranslationService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C9F2F9AC132421B3226EE47D69F0C3A /* Pods-iOS-TranslationService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-TranslationService_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		44FE547BB46B7183C9756A7EE67C395F /* Pods-iOS-TranslationService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-TranslationService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5175CE824DF6387250A8BF9FAD311DF1 /* Pods-iOS-TranslationService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS-TranslationService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		647FB4C769FA17BD5AB29F31804BDB58 /* Pods-iOS-TranslationService_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-TranslationService_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8A7E278257292322EA29D685885FD1F8 /* iOS-TranslationService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOS-TranslationService-Info.plist"; sourceTree = "<group>"; };
+		97B3960150F2C1A74EE5669658693A69 /* iOS-TranslationService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-TranslationService-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A843B31D21C5AA8BA6FC39A91C2C9112 /* Pods-iOS-TranslationService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-TranslationService_Tests-dummy.m"; sourceTree = "<group>"; };
+		BD151AA763D94017053FBA21B23CB094 /* Pods-iOS-TranslationService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-TranslationService_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C77006F82BA7F43EA1C7EA2CAEC3B279 /* iOS-TranslationService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-TranslationService-umbrella.h"; sourceTree = "<group>"; };
+		D02A10F5254FFC4500A7E41E /* LocalizationSourceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationSourceProvider.swift; sourceTree = "<group>"; };
+		D02A10F7254FFDB800A7E41E /* AppDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefaultsKeys.swift; sourceTree = "<group>"; };
+		D02A10FA255007E500A7E41E /* CachedTranslationFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedTranslationFile.swift; sourceTree = "<group>"; };
+		D3832B6A820C0899497B448BA37A8BD5 /* iOS-TranslationService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "iOS-TranslationService.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D9534C841F2F38D123525709FCD4F195 /* Pods-iOS-TranslationService_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-TranslationService_Tests-Info.plist"; sourceTree = "<group>"; };
+		D96BD948D08C11DD96A939407E080CA2 /* Pods-iOS-TranslationService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS-TranslationService_Tests.modulemap"; sourceTree = "<group>"; };
+		DA293608369D33256E5C589F44435428 /* iOS_TranslationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOS_TranslationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF07DF81F1F65363F1455AD97CE9AD86 /* Pods_iOS_TranslationService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_TranslationService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3F919020AEF21FA78DBAA0A0A20329 /* iOS-TranslationService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOS-TranslationService-dummy.m"; sourceTree = "<group>"; };
+		FFD8C7AB0285C8E05BA6EC32BABCB5FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C83980A95F6592873492557FFA00BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D0645A1C95389143278F7883EE74B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E239814DB60806CAF8AAFBB3F8E0C528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7F9E4BD302FB5FD13CE45EAA1701B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2680695FFFD7CD2335E149559F35AB3E /* iOS-TranslationService */ = {
+			isa = PBXGroup;
+			children = (
+				D02A10FD25500C6300A7E41E /* iOS-TranslationService */,
+				E1E73A1C54E788E7F1BDA6DE4136CA82 /* Pod */,
+				4E93BC72007A0DBC2D4D7DA4AA1900FB /* Support Files */,
+			);
+			name = "iOS-TranslationService";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4E93BC72007A0DBC2D4D7DA4AA1900FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0665A5E0A9F06A3B6F91003A2561C1AC /* iOS-TranslationService.modulemap */,
+				0F197CE2780B6BB0848F309FCFF3FB33 /* iOS-TranslationService.xcconfig */,
+				FD3F919020AEF21FA78DBAA0A0A20329 /* iOS-TranslationService-dummy.m */,
+				8A7E278257292322EA29D685885FD1F8 /* iOS-TranslationService-Info.plist */,
+				97B3960150F2C1A74EE5669658693A69 /* iOS-TranslationService-prefix.pch */,
+				C77006F82BA7F43EA1C7EA2CAEC3B279 /* iOS-TranslationService-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/iOS-TranslationService";
+			sourceTree = "<group>";
+		};
+		7A7270ECB146014BC5AC61057D239354 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2680695FFFD7CD2335E149559F35AB3E /* iOS-TranslationService */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B0381AA46E6B385B7827295171068CB3 /* Pods-iOS-TranslationService_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D96BD948D08C11DD96A939407E080CA2 /* Pods-iOS-TranslationService_Tests.modulemap */,
+				5175CE824DF6387250A8BF9FAD311DF1 /* Pods-iOS-TranslationService_Tests-acknowledgements.markdown */,
+				1858CD2D25F6878CAA57DFF6A38FE788 /* Pods-iOS-TranslationService_Tests-acknowledgements.plist */,
+				A843B31D21C5AA8BA6FC39A91C2C9112 /* Pods-iOS-TranslationService_Tests-dummy.m */,
+				647FB4C769FA17BD5AB29F31804BDB58 /* Pods-iOS-TranslationService_Tests-frameworks.sh */,
+				D9534C841F2F38D123525709FCD4F195 /* Pods-iOS-TranslationService_Tests-Info.plist */,
+				2C9F2F9AC132421B3226EE47D69F0C3A /* Pods-iOS-TranslationService_Tests-umbrella.h */,
+				44FE547BB46B7183C9756A7EE67C395F /* Pods-iOS-TranslationService_Tests.debug.xcconfig */,
+				BD151AA763D94017053FBA21B23CB094 /* Pods-iOS-TranslationService_Tests.release.xcconfig */,
+			);
+			name = "Pods-iOS-TranslationService_Tests";
+			path = "Target Support Files/Pods-iOS-TranslationService_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1EBC07E1707C390F632F27D1DF35606 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0381AA46E6B385B7827295171068CB3 /* Pods-iOS-TranslationService_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7A7270ECB146014BC5AC61057D239354 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F6D5A9A045D6AFF0266541C9E496D373 /* Products */,
+				C1EBC07E1707C390F632F27D1DF35606 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D02A10FD25500C6300A7E41E /* iOS-TranslationService */ = {
+			isa = PBXGroup;
+			children = (
+				D02A10FE25500C6300A7E41E /* Classes */,
+				D02A110025500C6300A7E41E /* Assets */,
+			);
+			path = "iOS-TranslationService";
+			sourceTree = "<group>";
+		};
+		D02A10FE25500C6300A7E41E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D02A10F7254FFDB800A7E41E /* AppDefaultsKeys.swift */,
+				D02A10F5254FFC4500A7E41E /* LocalizationSourceProvider.swift */,
+				D02A10FA255007E500A7E41E /* CachedTranslationFile.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D02A110025500C6300A7E41E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1E73A1C54E788E7F1BDA6DE4136CA82 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D3832B6A820C0899497B448BA37A8BD5 /* iOS-TranslationService.podspec */,
+				FFD8C7AB0285C8E05BA6EC32BABCB5FC /* LICENSE */,
+				0D6B77931C6AD3E23A9CC2E48416B6BB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F6D5A9A045D6AFF0266541C9E496D373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA293608369D33256E5C589F44435428 /* iOS_TranslationService.framework */,
+				EF07DF81F1F65363F1455AD97CE9AD86 /* Pods_iOS_TranslationService_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		55EDFDCF0102852BEC45212D6B86240D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43FF696F5D858227F7130010E7157A5F /* iOS-TranslationService-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF93EE052A3B0F268CC912B7A29B4BB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C5DA9CE34E54329E3EBAAF60F5DE73 /* Pods-iOS-TranslationService_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7785BD6E5E95E4837371FE4E7D6C665E /* iOS-TranslationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D89A2BBFFBC2E512E55B5A50B19C39C3 /* Build configuration list for PBXNativeTarget "iOS-TranslationService" */;
+			buildPhases = (
+				55EDFDCF0102852BEC45212D6B86240D /* Headers */,
+				6200A652FD1865E1E5B92DC0F63AD593 /* Sources */,
+				E239814DB60806CAF8AAFBB3F8E0C528 /* Frameworks */,
+				B534EDEBE342E178A8A0C3F7AC0E71CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-TranslationService";
+			productName = "iOS-TranslationService";
+			productReference = DA293608369D33256E5C589F44435428 /* iOS_TranslationService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBC98F91DE9634107989777D8F6AB5C1 /* Pods-iOS-TranslationService_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B554D7F936EE3407E4A0B1EC36C488BF /* Build configuration list for PBXNativeTarget "Pods-iOS-TranslationService_Tests" */;
+			buildPhases = (
+				BF93EE052A3B0F268CC912B7A29B4BB7 /* Headers */,
+				C3828D1E96F77C6F1E78972C00D9048F /* Sources */,
+				4C83980A95F6592873492557FFA00BDA /* Frameworks */,
+				C9E84CE86575185D4CC4813370A544CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42A451B09FE3BEFD0A033FC3F055C7AB /* PBXTargetDependency */,
+			);
+			name = "Pods-iOS-TranslationService_Tests";
+			productName = "Pods-iOS-TranslationService_Tests";
+			productReference = EF07DF81F1F65363F1455AD97CE9AD86 /* Pods_iOS_TranslationService_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					DBC98F91DE9634107989777D8F6AB5C1 = {
+						LastSwiftMigration = 1170;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F6D5A9A045D6AFF0266541C9E496D373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7785BD6E5E95E4837371FE4E7D6C665E /* iOS-TranslationService */,
+				DBC98F91DE9634107989777D8F6AB5C1 /* Pods-iOS-TranslationService_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B534EDEBE342E178A8A0C3F7AC0E71CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E84CE86575185D4CC4813370A544CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6200A652FD1865E1E5B92DC0F63AD593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139753166FEF6D78913260AD117406D8 /* iOS-TranslationService-dummy.m in Sources */,
+				D02A10FB255007E500A7E41E /* CachedTranslationFile.swift in Sources */,
+				D02A10F8254FFDB800A7E41E /* AppDefaultsKeys.swift in Sources */,
+				D02A10F6254FFC4500A7E41E /* LocalizationSourceProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3828D1E96F77C6F1E78972C00D9048F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02A10FC255007E500A7E41E /* CachedTranslationFile.swift in Sources */,
+				9A346B0BCCC06A64A4744D7B8BF7C8E1 /* Pods-iOS-TranslationService_Tests-dummy.m in Sources */,
+				D02A10F9254FFDB800A7E41E /* AppDefaultsKeys.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42A451B09FE3BEFD0A033FC3F055C7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iOS-TranslationService";
+			target = 7785BD6E5E95E4837371FE4E7D6C665E /* iOS-TranslationService */;
+			targetProxy = 7F75EFB4E1DEC5DEE22FB9F263BF3252 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11C5AFAD66E78EB8FD5664F3796F256A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44FE547BB46B7183C9756A7EE67C395F /* Pods-iOS-TranslationService_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS-TranslationService_Tests/Pods-iOS-TranslationService_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS-TranslationService_Tests/Pods-iOS-TranslationService_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F98D464654B9B834E04D4DCF0089FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F197CE2780B6BB0848F309FCFF3FB33 /* iOS-TranslationService.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOS-TranslationService/iOS-TranslationService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOS-TranslationService/iOS-TranslationService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOS-TranslationService/iOS-TranslationService.modulemap";
+				PRODUCT_MODULE_NAME = iOS_TranslationService;
+				PRODUCT_NAME = iOS_TranslationService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		996FC5FDB4F91C445D918FE78197EB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD151AA763D94017053FBA21B23CB094 /* Pods-iOS-TranslationService_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS-TranslationService_Tests/Pods-iOS-TranslationService_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS-TranslationService_Tests/Pods-iOS-TranslationService_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E796C50A79B292CA7B1F1697ABF1CB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F197CE2780B6BB0848F309FCFF3FB33 /* iOS-TranslationService.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOS-TranslationService/iOS-TranslationService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOS-TranslationService/iOS-TranslationService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOS-TranslationService/iOS-TranslationService.modulemap";
+				PRODUCT_MODULE_NAME = iOS_TranslationService;
+				PRODUCT_NAME = iOS_TranslationService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B554D7F936EE3407E4A0B1EC36C488BF /* Build configuration list for PBXNativeTarget "Pods-iOS-TranslationService_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C5AFAD66E78EB8FD5664F3796F256A /* Debug */,
+				996FC5FDB4F91C445D918FE78197EB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D89A2BBFFBC2E512E55B5A50B19C39C3 /* Build configuration list for PBXNativeTarget "iOS-TranslationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E796C50A79B292CA7B1F1697ABF1CB64 /* Debug */,
+				2F98D464654B9B834E04D4DCF0089FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

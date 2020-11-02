@@ -1,0 +1,6 @@
+framework module iOS_TranslationService {
+  umbrella header "iOS-TranslationService-umbrella.h"
+
+  export *
+  module * { export * }
+}

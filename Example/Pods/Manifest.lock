@@ -1,0 +1,16 @@
+PODS:
+  - iOS-TranslationService (0.1.0)
+
+DEPENDENCIES:
+  - iOS-TranslationService (from `../`)
+
+EXTERNAL SOURCES:
+  iOS-TranslationService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOS-TranslationService: e4a710d3dcd294186946ec014edf76e0fbcc8d61
+
+PODFILE CHECKSUM: 669c15471edbdefccb7eb384e60902cf6fbfff4b
+
+COCOAPODS: 1.7.5

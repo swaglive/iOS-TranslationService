@@ -1,0 +1,22 @@
+{
+  "name": "iOS-TranslationService",
+  "version": "0.1.0",
+  "summary": "A short description of iOS-TranslationService.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/focuspirit/iOS-TranslationService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "focuspirit": "peter@swag.live"
+  },
+  "source": {
+    "git": "https://github.com/focuspirit/iOS-TranslationService.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iOS-TranslationService/Classes/**/*"
+}
