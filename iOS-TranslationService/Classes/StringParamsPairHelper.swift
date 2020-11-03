@@ -12,7 +12,8 @@ public enum StringParams: String, CaseIterable {
     case username = "{username}"
 }
 
-public class StringParamsPairHelper {
+@objcMembers
+public class StringParamsPairHelper: NSObject {
     private static let regex = try! NSRegularExpression(pattern:"[\\{][a-zA-Z0-9]*[\\}]", options: [])
     
     public class func replacement(_ string: String ,params: [String: String]) -> String {
