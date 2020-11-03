@@ -12,16 +12,6 @@ public enum StringParams: String, CaseIterable {
     case username = "{username}"
 }
 
-public enum LocalizedPairKeys {
-    case command
-    case duration
-    case username
-
-    var curlyBrackets: String {
-        return "{\(self)}"
-    }
-}
-
 public class StringParamsPairHelper {
     private static let regex = try! NSRegularExpression(pattern:"[\\{][a-zA-Z0-9]*[\\}]", options: [])
     
