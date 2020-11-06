@@ -22,8 +22,5 @@ pod 'iOS-TranslationService'
 
 ## Author
 
-focuspirit, peter@swag.live
+SWAG
 
-## License
-
-iOS-TranslationService is available under the MIT license. See the LICENSE file for more info.
