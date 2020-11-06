@@ -3,7 +3,7 @@
 //  SWAG
 //
 //  Created by peter on 2020/3/14.
-//  Copyright © 2020 Machipopo Corp. All rights reserved.
+//  Copyright © 2020 SWAG. All rights reserved.
 //
 
 import Foundation
