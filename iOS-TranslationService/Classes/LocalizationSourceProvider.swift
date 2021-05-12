@@ -85,34 +85,6 @@ public class LocalizationSourceProvider: NSObject {
     }
 
     private func fetch() {
-
-        var request = URLRequest(url: url)
-        request.httpMethod = "GET"
-
-        let task = session.dataTask(with: request, completionHandler: { [weak self] (data: Data?, response: URLResponse?, error: Error?) -> Void in
-          if (error == nil) {
-
-            if let data = data, let resp = response as? HTTPURLResponse {
-                
-                if let etag = resp.allHeaderFields["Etag"] as? String {
-                    self?.localEtag = etag
-                }
-                self?.languageCode = self?.appLanguageCode
-
-                let str = String(decoding: data, as: UTF8.self)
-
-                if let jsonData = str.data(using: .utf8),
-                    let jsonDict = try? JSONSerialization.jsonObject(with: jsonData, options: .mutableContainers) as? [String: String] {
-                    self?.translation = jsonDict ?? [:]
-                    self?.saveToFile()
-                    NotificationCenter.default.post(name: Notification.Name.DidUpdateLocalization, object: nil)
-                }
-            }
-          }
-          else {
-              debugPrint("URL Session Task Failed: %@", error!.localizedDescription);
-          }
-        })
-        task.resume()
+        translation = [:]
     }
 }
